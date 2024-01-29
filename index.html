@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guessing Game</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="myBody">
+    <section class="sounds">
+      <button id="toggleSoundButton">
+        <img
+          class="sound"
+          width="30"
+          height="30"
+          src="assets/sound-on.png"
+          alt="mute--v2"
+        />
+      </button>
+      <audio id="backgroundAudio" autoplay="true" loop>
+        <source src="assets/default-music.mp3" type="audio/mp3" />
+        <!-- Diğer ses formatları için gerekli source etiketlerini ekleyebilirsiniz -->
+      </audio>
+      <audio
+        class="winSound"
+        src="assets/win.mp3"
+        controls=""
+        style="width: 0"
+      ></audio>
+      <audio
+        class="loseSound"
+        src="assets/lose.mp3"
+        controls=""
+        style="width: 0"
+      ></audio>
+    </section>
+    <section class="top-content">
+      <p class="between">💡Tip: Guess between 1-20</p>
+      <button class="btn again">Again</button>
+    </section>
+    <header>
+      <h1>GUESS MY NUMBER</h1>
+      <div class="number">?</div>
+    </header>
+    <main>
+      <section class="left">
+        <input type="number" class="guess" />
+        <button class="check">Guess</button>
+      </section>
+      <section class="right">
+        <p class="msg">Game begins...</p>
+        <p class="remain-label">🤍 Remain: <span class="remain">10</span></p>
+        <p class="top-score-label">
+          🏅 High Score: <span class="top-score">0</span>
+        </p>
+      </section>
+    </main>
+    <script src="game.js"></script>
+  </body>
+</html>
