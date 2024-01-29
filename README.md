@@ -22,6 +22,8 @@ Guessing_Game (folder)
 
 ## Expected Outcome
 
+![project](https://github.com/omrfrkcpr/Guessing_Game/assets/77440899/d26ec253-232a-4277-b79e-27f8bab93a4c)
+
 ## Objective
 
 ### At the end of the project, following topics are to be covered;
