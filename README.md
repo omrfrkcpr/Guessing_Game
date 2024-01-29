@@ -1,10 +1,10 @@
 # Guessing_Game
 
-A game where you try to guess and find a randomly generated number within 10 attempts.
+https://omrfrkcpr.github.io/Guessing_Game/
 
 ## Description
 
-Project aims to create a interactive guess the number game with using HTML5 CSS3 and JavaScript(ES6).
+Project aims to create a interactive game called guessing game with using HTML5 CSS3 and JavaScript(ES6) to guess and find a randomly generated number within 10 attempts .
 
 ## Project Skeleton
 
