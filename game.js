@@ -75,11 +75,11 @@ document.addEventListener("DOMContentLoaded", () => {
   function toggleSound() {
     isMuted = !isMuted;
     if (isMuted) {
-      backgroundAudio.volume = 0;
-      document.querySelector("img").src = "assets/sound-off.png";
-    } else {
-      backgroundAudio.volume = 0.3;
+      backgroundAudio.play();
       document.querySelector("img").src = "assets/sound-on.png";
+    } else {
+      backgroundAudio.pause();
+      document.querySelector("img").src = "assets/sound-off.png";
     }
   }
   toggleSoundButton.addEventListener("click", toggleSound);
