@@ -20,19 +20,11 @@ Guessing_Game (folder)
 |----style.css
 ```
 
-## Expected Outcome
+## Outcome
 
 ![project](https://github.com/omrfrkcpr/Guessing_Game/assets/77440899/d26ec253-232a-4277-b79e-27f8bab93a4c)
 
-## Objective
-
-### At the end of the project, following topics are to be covered;
-
-- HTML5 / CSS3 / JavaScript
-
-- Responsive Design
-
-### At the end of the project, you will be able to;
+### At the end of the project, will be able to;
 
 - improve coding skills within HTML & CSS inckl. JavaScript
 
